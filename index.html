@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Santosh.dev</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Santosh.dev</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__text">
+        <h1 class="title lefttitle">Software Developer</h1>
+        <p class="section__text__p1 leftcont">
+          Hello, I'm Santosh Sahoo Learning Developer 👋🏼<br />
+          based on Maharashtra, India 📍.
+        </p>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/santosh-sahoo-abc/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Santosh-2003-sahoo'"
+          />
+        </div>
+      </div>
+      <div class="section__pic-container">
+        <img src="./assets/a.png" alt=" profile picture" id="profilepic" />
+      </div>
+    </section>
+    <section class="stack">
+      <h3>Tech Stack |</h3>
+      <div class="icondiv">
+        <img src="./assets/c++.png" alt="cpp" />
+        <img src="./assets/java.png" alt="java" />
+        <img src="./assets/html.png" alt="html" />
+        <img src="./assets/css-3.png" alt="css" />
+        <img src="./assets/js.png" alt="js" />
+        <img src="assets/bootstrap.png" alt="bootstrap" />
+        <img src="assets/github-sign.png" alt="git" />
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="pic-container">
+          <img
+            src="./assets/aboutus.jpeg"
+            alt="Profile picture"
+            class="about-pic"
+            id="aboutpic"
+          />
+          <img src="./assets/rotateimg.png" alt="x" id="rotateimg" />
+          <span id="man">🧑🏻‍💻</span>
+        </div>
+
+        <div class="about-details-container">
+          <div class="text-container">
+            <p>
+              <strong style="color: black">As a Junior Developer 🧑🏻‍💻,</strong>
+              I possess an impressive arsenal of skills in Fronted Technologies
+              like HTML, CSS, JavaScript, git and Programming Languages like C++
+              and Java. I excel in designing and maintaining responsive websites
+              that offer a smooth user experience. My expertise lies in crafting
+              dynamic, engaging interfaces through writing clean and optimized
+              code and utilizing cutting-edge development tools and techniques.
+              I am also a team player who thrives in collaborating with
+              cross-functional teams to produce outstanding web applications.
+            </p>
+            <br />
+            <p>
+              I have a good hand in Cpp Programming, giving my fair share of
+              time in learning Data structures and algorithums. Also trying to
+              exploring the world of AI ML.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title" style="margin-bottom: 5rem">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="card">
+            <div class="cardcontent">
+              <p class="card-title">SubBuddy</p>
+              <p class="card-body">
+                💯A Subscription sharing website that allows you to participate
+                in shared Subscription and save money. Pay only for your share
+                of money💸.
+              </p>
+
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='hhttps://github.com/Santosh-2003-sahoo/SubBuddy.fee'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://santosh-2003-sahoo.github.io/SubBuddy.fee/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="card-image">
+              <img
+                src="./assets/subbuddy.png"
+                alt="subbuddy"
+                width="100%"
+                height="100%"
+              />
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./assets/littlemoviecmp.png"
+                alt="subbuddy"
+                width="100%"
+                height="100%"
+              />
+            </div>
+            <div class="cardcontent">
+              <p class="card-title">The Little Movie Company</p>
+              <p class="card-body">
+                🍿A movie and series review website. Sharing a genuine review to
+                viewers 🚀.
+                <br />
+                Made in collaboration with Hostel roomates.
+              </p>
+
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='hhttps://github.com/Santosh-2003-sahoo/SubBuddy.fee'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://santosh-2003-sahoo.github.io/SubBuddy.fee/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Don't be shy! Hit me up 😉👇🏻</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:santosh.202.sho@gmail.com"
+              >santosh.202.sho@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/santosh-sahoo-abc/"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Copyright &#169; 2023 Santosh Sahoo. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
