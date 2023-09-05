@@ -433,7 +433,7 @@ section {
   /* background-image: url(./assets/subbuddy.png);
   background-size: cover; */
   border-radius: 15px;
-  box-shadow: 8px 8px 10px #c3c3c3, inset -8px -8px 10px #cfcfcf;
+  box-shadow: 8px 8px 30px 0px #c3c3cf;
 }
 .card-image img {
   border-radius: 15px;
