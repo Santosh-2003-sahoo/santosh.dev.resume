@@ -48,9 +48,13 @@
 }
 
 @media screen and (max-width: 600px) {
+  nav {
+    justify-content: space-between;
+    padding: 5px 30px;
+  }
   #contact,
   footer {
-    height: 40vh;
+    height: 15 vh;
   }
   #profile {
     height: 83vh;
@@ -91,6 +95,9 @@
     height: 46vw;
     justify-content: center;
   }
+  .section__text {
+    text-align: center;
+  }
   .section__text__p2 {
     font-size: 1.25rem;
   }
@@ -99,5 +106,64 @@
   }
   .text-container {
     text-align: justify;
+  }
+  .lefttitle,
+  .leftcont {
+    text-align: center;
+  }
+  #socials-container {
+    justify-content: center;
+  }
+  .icondiv {
+    /* display: flex; */
+  }
+  .stack h3 {
+    font-size: 0.9rem;
+  }
+  .icondiv img {
+    width: 5vw;
+  }
+  #about {
+  }
+  #rotateimg {
+    top: 18rem;
+  }
+  #aboutpic {
+    margin-top: 2rem;
+  }
+  .about-details-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .text-container {
+    margin-top: 3rem;
+    width: 80%;
+  }
+  #projects {
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .experience-details-container {
+    margin-top: 0;
+  }
+  .card {
+    min-height: auto;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .card-body {
+    width: 300px;
+  }
+  .btn-container {
+    flex-wrap: nowrap;
+    width: auto;
+  }
+  .card2 {
+    flex-direction: column;
+  }
+  #contact {
+    height: 40vh;
+    margin-bottom: 5rem;
   }
 }

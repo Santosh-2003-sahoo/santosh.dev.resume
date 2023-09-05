@@ -214,6 +214,7 @@ section {
   gap: 1rem;
 }
 .stack {
+  margin-top: 2rem;
   display: flex;
   padding-left: 3rem;
   height: 30vh;
