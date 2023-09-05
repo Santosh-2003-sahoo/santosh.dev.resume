@@ -84,8 +84,8 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 24px;
-  width: 30px;
+  height: 18px;
+  width: 26px;
   cursor: pointer;
 }
 
@@ -214,7 +214,7 @@ section {
   gap: 1rem;
 }
 .stack {
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: flex;
   padding-left: 3rem;
   height: 30vh;
