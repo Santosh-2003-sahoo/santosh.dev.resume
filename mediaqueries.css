@@ -57,6 +57,8 @@
     height: 15 vh;
   }
   #profile {
+    display: flex;
+    flex-direction: column;
     height: 83vh;
     margin-bottom: 0;
   }
@@ -125,9 +127,7 @@
   }
   #about {
   }
-  #rotateimg {
-    top: 18rem;
-  }
+
   #aboutpic {
     margin-top: 2rem;
   }
@@ -161,7 +161,7 @@
     flex-direction: column;
   }
   .card-image {
-    width: 80%;
+    width: 95%;
   }
   #contact {
     height: 40vh;
@@ -175,7 +175,29 @@
     width: 80%;
   }
   #man {
-    top: -3rem;
-    right: -10.2rem;
+    position: absolute;
+    top: 32%;
+    left: 7%;
+  }
+  .pic-container {
+    flex-direction: column-reverse;
+  }
+  #rotateimg {
+    position: absolute;
+    width: 120px;
+    top: 30%;
+    left: -0%;
+  }
+  footer {
+    height: 15vh;
+  }
+  #profilepic {
+    width: 50%;
+  }
+  .stack {
+    margin-top: 2rem;
+    display: block;
+    padding-left: 3rem;
+    height: 20vh;
   }
 }
