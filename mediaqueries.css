@@ -132,9 +132,7 @@
     margin-top: 2rem;
   }
   .about-details-container {
-    display: flex;
     align-items: center;
-    justify-content: center;
   }
   .text-container {
     margin-top: 3rem;
@@ -162,8 +160,22 @@
   .card2 {
     flex-direction: column;
   }
+  .card-image {
+    width: 80%;
+  }
   #contact {
     height: 40vh;
     margin-bottom: 5rem;
+  }
+  .pic-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #aboutpic {
+    width: 80%;
+  }
+  #man {
+    top: -3rem;
+    right: -10.2rem;
   }
 }
