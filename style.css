@@ -213,6 +213,15 @@ section {
   margin: 1.8rem auto 1rem;
   gap: 1rem;
 }
+/* Animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 5));
+  }
+}
 .stack {
   margin-top: 1rem;
   display: flex;
@@ -221,6 +230,16 @@ section {
 }
 .stack h3 {
   margin-right: 3rem;
+}
+.icontrack {
+  height: auto;
+  width: auto;
+  overflow: hidden;
+}
+.icondiv {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(15rem * 2);
 }
 .icondiv img {
   width: 32px;

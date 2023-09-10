@@ -117,6 +117,7 @@
   }
   .icondiv {
     /* display: flex; */
+    width: calc(5rem * 2);
   }
   .stack h3 {
     font-size: 0.9rem;
