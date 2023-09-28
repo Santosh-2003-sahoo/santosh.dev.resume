@@ -23,7 +23,7 @@ p {
 
 a,
 .btn {
-  transition: all 300ms ease;
+  transition: all 0.3s ease-out 0s !important;
 }
 
 /* DESKTOP NAV */
@@ -34,12 +34,24 @@ nav,
 }
 
 nav {
-  padding: 5px 100px;
+  padding: 5px 50px;
   justify-content: space-between;
   align-items: center;
-  height: 15vh;
+  height: 10vh;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-color: rgba(255, 255, 255, 0.372);
 }
-
+#menu-overlay {
+  /* position: fixed; */
+  /* top: 0;
+  left: 0; */
+  width: 100%;
+  height: 10vh;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  z-index: 100;
+}
 .nav-links {
   gap: 1rem;
   list-style: none;
@@ -368,10 +380,17 @@ section {
   width: 420px;
   margin: auto 0;
 }
+.rot {
+  position: relative;
+  top: 7rem;
+  right: 2rem;
+  /* background-color: rebeccapurple !important; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #rotateimg {
   position: absolute;
-  top: 25rem;
-  left: 18rem;
   border-radius: 50%;
   width: 160px;
   animation: roate 10s infinite linear;
@@ -386,9 +405,9 @@ section {
 }
 #man {
   font-size: 50px;
-  position: relative;
-  top: 6rem;
-  right: 5.2rem;
+  position: absolute;
+
+  /* margin: auto auto; */
 }
 /* PROJECTS SECTION */
 
@@ -426,12 +445,16 @@ section {
   border-radius: 20px;
   background: #f3f3f3;
   box-shadow: 5px 5px 6px #ffffff, -5px -5px 6px #f6f6f6;
-  transition: 0.4s;
+  /* transition: 0.4s; */
   display: flex;
   justify-content: space-between;
+  transition: all 0.3s ease-out 0s !important;
 }
 .card-image {
   width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .cardcontent {
   margin-right: 1rem;
@@ -450,14 +473,16 @@ section {
 }
 
 .card-image {
-  background-color: #c9c9c9;
+  background-color: rgba(255, 255, 255, 0);
   /* background-image: url(./assets/subbuddy.png);
   background-size: cover; */
   border-radius: 15px;
   box-shadow: 8px 8px 30px 0px #c3c3cf;
+  transition: all 0.3s ease-out 0s !important;
 }
 .card-image img {
   border-radius: 15px;
+  /* height: auto; */
 }
 
 .card-body {

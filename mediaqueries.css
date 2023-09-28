@@ -12,7 +12,7 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
   #desktop-nav {
     display: none;
   }
@@ -175,19 +175,27 @@
     width: 80%;
   }
   #man {
-    position: absolute;
+    /* position: absolute;
     top: 33%;
-    left: 9%;
+    left: 9%; */
     font-size: 40px;
   }
   .pic-container {
     flex-direction: column-reverse;
   }
+  .rot {
+    position: relative;
+    top: 13rem;
+    left: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   #rotateimg {
-    position: absolute;
+    /* position: relative; */
     width: 120px;
-    top: 30%;
-    left: -0%;
+    /* top: 30%;
+    left: -0%; */
   }
 
   #profilepic {
